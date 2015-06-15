@@ -1,0 +1,93 @@
+body{
+	background-color: #575757;
+}
+
+#head{
+	height: 100px;
+	width: 1300px;
+	border-radius: 10px;
+	background-color: #8f8f8f;
+	box-shadow: 10px 10px 10px black;
+	position: relative;
+}
+
+#h-img1{
+	height: 100px;
+	width: 70px;
+	border-radius: 10px;
+	position: absolute;
+	left: 0px;
+}
+
+#loupe{
+	height: 100px;
+	width: 200px;
+	right: 40px;
+	top: 15px;
+	position: absolute;
+}
+
+#close{
+	right: 15px;
+	top: 80px;
+	position: absolute;
+}
+#reload{
+	height: 20px;
+	width: 20px;
+	right: 15px;
+	top: 15px;
+	position: absolute;
+}
+#bcenter{
+	height:500px;
+	width:850px;
+
+}
+.bcenter{
+	height:600px;
+	width:850px;
+	border:10px solid #8f8f8f;
+	border-radius:8px;
+	box-shadow: 10px 10px 10px black;
+}
+.bleft{
+	float: left;
+	height:450px;
+	width:150px;
+	background-color: #8f8f8f;
+	box-shadow: 10px 10px 10px black;
+	border-radius: 10px;
+}
+.bright{
+	float:right;
+	height:450px;
+	width:150px;
+	background-color: #8f8f8f;
+	box-shadow: 10px 10px 10px black;
+	border-radius: 10px;
+}
+#ball{
+	width: 1250px;
+	height: 1300px;
+}
+.brick{
+	background-image: url(resources/brick.jpg);
+	height: 70px;
+	width: 130px;
+}
+.search_box{
+	background-color: #89ff87;
+	border-radius: 10px;
+	height:165px;
+	width:425px;
+	position:fixed;
+	top: 680px;
+	left: 570px;
+	text-align: left;
+}
+.input_text{
+	height:15px;
+	width:300px;
+	margin-left: 20px;
+}
