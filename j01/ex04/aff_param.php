@@ -1,8 +1,11 @@
 #!/usr/bin/php
 <?PHP
-foreach ($argv as $elem)
+
+$i = 1;
+
+while ($argv[$i])
 {
-	if (!)
-	echo "$elem\n";
+	echo "$argv[$i]\n";
+	$i++;
 }
 ?>
