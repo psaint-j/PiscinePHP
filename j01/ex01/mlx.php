@@ -1,7 +1,7 @@
 #!/usr/bin/php
 <?PHP
 
-$i = 100;
+$i = 1000;
 
 while($i)
 {
