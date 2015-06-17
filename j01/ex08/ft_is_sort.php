@@ -1,6 +1,6 @@
 #!/usr/bin/php
 <?PHP
-function	ft_s($str)
+function	ft_is_sort($str)
 {
 	$tmp = $str;
 	sort($str);
