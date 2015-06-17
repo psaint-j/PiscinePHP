@@ -1,9 +1,13 @@
 #!/usr/bin/php
 <?PHP
-function	ft_split($str)
+function	ft_s($str)
 {
-	$str = array_filter(explode(" ", $str), 'strlen');
+	$tmp = $str;
 	sort($str);
-	return ($str);
+
+	if ($str != $tmp)
+		return (false);
+	else
+		return (true);
 }
 ?>
